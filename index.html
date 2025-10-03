@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My To-Do List</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>My To-do List</header>
+
+    <main>
+      <section class="container">
+        <div class="title">
+          <p class="to-do-list">To-do List</p>
+          <p class="desc">Let's get your life together!</p>
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-container">
+          <div class="input-group">
+            <label for="task-input">Add New Task:</label>
+            <input
+              type="text"
+              id="task-input"
+              placeholder="Add your To-do..."
+            />
+          </div>
+          <div class="input-group">
+            <label for="status-input">Set Status:</label>
+            <select id="status-input">
+              <option value="Done">Done</option>
+              <option value="In Progress">In Progress</option>
+              <option value="Not Yet">Not Yet</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="due-date-input">Set Due Date:</label>
+            <input type="date" id="due-date-input" />
+          </div>
+          <button id="add-task-btn" class="btn">+</button>
+        </div>
+
+        <!-- Delete and Filter Section -->
+        <div class="filter-section">
+          <button id="filter-btn" class="filter-button">Filter</button>
+          <button id="delete-all-btn" class="delete-button">Delete All</button>
+        </div>
+
+        <!-- Task List Section -->
+        <div class="task-list-container">
+          <table id="task-table">
+            <thead>
+              <tr class="categories">
+                <th class="task">Task</th>
+                <th class="due-date">Due Date</th>
+                <th class="status">Status</th>
+                <th class="actions">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="task-list" class="task-display"></tbody>
+          </table>
+        </div>
+
+        <div class="note-container">
+          <img class="picture" src="bunny pic.png" alt="" />
+          <p class="note">
+            Don't worry, we'll keep track of all your errands ˚ʚ♡ɞ˚
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made by <span>Jannet. T</span></p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

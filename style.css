@@ -1,0 +1,220 @@
+header {
+    display: flex;
+    justify-content: center;
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.container {
+    background-color: rgb(255, 227, 233);
+    border: none;
+    width: 600px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 350px;
+    border-radius: 40px;
+    padding: 15px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.to-do-list {
+    font-size: 25px;
+    color: rgb(165, 90, 115);
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 0;
+}
+.desc {
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 0;
+    color: rgb(206, 155, 163);
+}
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(155, 99, 136);
+}
+.input-group input,
+.input-group select,
+#add-task-btn {
+    background-color:  rgb(182, 160, 182);
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+}
+.btn {
+    background-color: rgb(182, 160, 182);
+    color: white;
+    font-size: 20px;
+    height: 43px;
+    width: 43px;
+    margin-left: 0;
+    margin-top: 22px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(218, 189, 218);
+    transition: 0.25s;
+}
+::placeholder {
+    color: black;
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.button-container {
+    margin-left: 35px;
+}
+.filter-button {
+    background-color: rgb(221, 188, 221);
+    color: rgb(124, 105, 124);
+    width: 60px;
+    height: 35px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+}
+.filter-button:hover {
+    background-color: rgb(124, 105, 124);
+    color: rgb(221, 188, 221);
+    transition: 0.25s;
+}
+.delete-button {
+    background-color: rgb(221, 188, 221);
+    color: rgb(124, 105, 124);
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left: 435px;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: rgb(124, 105, 124);
+    color: rgb(221, 188, 221);
+    transition: 0.25s;
+}
+table {
+    background-color: rgb(182, 160, 182);
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.categories {
+    background-color: rgb(158, 137, 158);
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(236, 210, 236);
+}
+.task {
+    width: 170px;
+}
+.due-date {
+    width: 100px;
+}
+.status {
+    width: 150px;
+}
+.actions {
+    width: 180px;
+}
+.task-display {
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    color: rgb(66, 53, 66);
+}
+.complete-btn {
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+.complete-btn:hover {
+    background-color: #218838;
+}
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background-color: #c82333;
+}
+.display {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: 200px;
+}
+.note-container {
+    display: flex;
+    justify-content: center;
+    font-family: "Alan Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+    color: rgb(126, 112, 126);
+}
+.picture {
+    width: 25px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
